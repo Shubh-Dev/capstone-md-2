@@ -1,3 +1,15 @@
-.hello {
-  color: red;
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  padding: 15px;
+  border: 1px red dashed;
 }
