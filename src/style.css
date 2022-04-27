@@ -28,6 +28,10 @@ header {
   color: #ffff;
 }
 
+  .and {
+    color: red;
+  }
+
 span.tasty {
   margin-right: 6%;
   color: green;
@@ -235,5 +239,89 @@ a {
 
 footer {
   padding-inline: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .fa.fa-search {
+    display: none;
+  }
+
+  #search {
+    display: block;
+    padding: 18px;
+    border-radius: 35px;
+    border: 1px solid green;
+    width: 31%;
+  }
+
+  header {
+    justify-content: space-around;
+    padding: 1%;
+  }
+
+  #itemsCount {
+    display: flex;
+    margin: auto;
+    width: max-content;
+  }
+
+  .menu p {
+    padding-bottom: 5%;
+  }
+
+  .actions {
+    margin-left: 16%;
+  }
+
+  .comment-btn {
+    width: 75%;
+    margin-left: 15%;
+    padding: 26px;
+  }
+
+  .display {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 3em;
+    background-color: white;
+    padding-bottom: 20%;
+    padding-top: 6%;
+  }
+
+  .food-intro {
+    padding-top: 5%;
+  }
+
+  .food-intro p {
+    text-align: center;
+  }
+
+  .meal {
+    width: 100%;
+  }
+
+  .commentSection {
+    background-color: rgb(58, 55, 55);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  .input-form {
+    width: 44%;
+    margin: auto;
+  }
+
+  .popup-card img {
+    width: 60%;
+  }
+
+  .footer p {
+    font-size: 35px;
+    text-align: center;
+  }
 }
 
