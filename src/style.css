@@ -34,11 +34,6 @@ span.eats {
   color: rgb(233, 66, 66);
 }
 
-.fa.fa-search {
-  margin-left: 5%;
-  font-size: 23px;
-}
-
 .menu {
   text-align: center;
 }
@@ -203,6 +198,7 @@ footer {
   border: 1px solid green;
   width: 31%;
   height: 20px;
+  margin-top: 7px;
 }
 
 #itemsCount {

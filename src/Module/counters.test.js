@@ -1,7 +1,4 @@
-
-
 import { dishCount } from './counters.js';
-/* eslint-disable no-use-before-define */
 
 const meals = [
   { item_id: 1, likes: 310, id: 1 },
