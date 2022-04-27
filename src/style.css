@@ -13,7 +13,7 @@ header {
   justify-content: space-around;
   background-color: floralwhite;
   width: 100%;
-  gap: 3%;
+  padding: 1%;
 }
 
 .food-intro {
@@ -22,9 +22,9 @@ header {
   color: #ffff;
 }
 
-  .and {
-    color: red;
-  }
+.and {
+  color: red;
+}
 
 span.tasty {
   color: green;
@@ -70,18 +70,12 @@ p {
   font-size: 30px;
   text-align: center;
   color: #ffff;
-  
 }
 
 .fa.fa-thumbs-up {
   color: #726969;
   font-size: 27px;
   cursor: pointer;
-}
-
-.meal {
-  padding: 10px;
-  width: 90%;
 }
 
 .foodcategory {
@@ -95,6 +89,7 @@ p {
   align-items: center;
   width: 76%;
   justify-content: space-between;
+  margin-left: 16%;
 }
 
 .images {
@@ -105,27 +100,15 @@ p {
 }
 
 .comment-btn {
-  width: 78%;
-  padding: 17px;
-  cursor: pointer;
-  margin-left: 11%;
+  width: 75%;
+  margin-left: 15%;
+  padding: 26px;
   font-size: 24px;
 }
 
 .comment-btn:active {
   margin-inline: 20px;
   width: 80%;
-}
-
-.commentSection {
-  background-color: rgb(58, 55, 55);
-  position: fixed;
-  left: 0;
-  
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow-y: scroll;
 }
 
 .cancel {
@@ -160,13 +143,6 @@ p#commentCount {
   color: #ffff;
 }
 
-.input-form {
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
-  gap: 20px;
-}
-
 #name {
   padding: 15px;
   border-radius: 6px;
@@ -189,13 +165,6 @@ p#commentCount {
   width: 45%;
 }
 
-#itemsCount {
-  margin-left: 45px;
-  color: #ffff;
-  text-align: center;
-  padding-bottom: 5%;
-}
-
 p#beef.likeShow {
   margin-right: 50px;
 }
@@ -206,8 +175,10 @@ p#beef.likeShow {
   align-items: center;
 }
 
-.popup-card img {
-  width: 80%;
+.footer p {
+  font-size: 22px;
+  text-align: center;
+  color: #ffff;
 }
 
 #apicomment p {
@@ -225,71 +196,41 @@ footer {
   min-height: 70px;
 }
 
-  #search {
-    display: block;
-    padding: 18px;
-    border-radius: 35px;
-    border: 1px solid green;
-    width: 31%;
-    height: 20px;
-  }
+#search {
+  display: block;
+  padding: 18px;
+  border-radius: 35px;
+  border: 1px solid green;
+  width: 31%;
+  height: 20px;
+}
 
-  header {
-    justify-content: space-around;
-    padding: 1%;
-  }
+#itemsCount {
+  display: flex;
+  margin: auto;
+  width: max-content;
+  padding-bottom: 5%;
+}
 
-  #itemsCount {
-    display: flex;
-    margin: auto;
-    width: max-content;
-  }
+.display {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 3em;
+  background-color: white;
+  padding-bottom: 20%;
+  padding-top: 6%;
+}
 
-  .actions {
-    margin-left: 16%;
-  }
+.meal {
+  width: 100%;
+}
 
-  .comment-btn {
-    width: 75%;
-    margin-left: 15%;
-    padding: 26px;
-  }
-
-  .display {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    row-gap: 3em;
-    background-color: white;
-    padding-bottom: 20%;
-    padding-top: 6%;
-  }
-
-  .meal {
-    width: 100%;
-  }
-
-  .commentSection {
-    background-color: rgb(58, 55, 55);
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow-y: scroll;
-  }
-
-  .input-form {
-    width: 44%;
-    margin: auto;
-  }
-
-  .popup-card img {
-    width: 60%;
-  }
-
-  .footer p {
-    font-size: 22px;
-    text-align: center;
-    color: #ffff;
-  }
-
+.commentSection {
+  background-color: rgb(58, 55, 55);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
