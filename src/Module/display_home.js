@@ -1,4 +1,4 @@
-
+import { addLikes, getAllLikes } from './create_likes.js';
 
 const url2 = 'https://themealdb.com/api/json/v1/1/categories.php';
 const show = document.querySelector('.display');
@@ -19,7 +19,7 @@ const check = async (item, paragraph) => {
   }
 };
 
-const display = async () => {
+const dynamicDisplay = async () => {
   const data = await fetch(url2).then((response) => response.json());
   data.categories.forEach((element) => {
     const meal = document.createElement('div');
@@ -52,4 +52,4 @@ const display = async () => {
   });
 };
 
-export default display;
+export default dynamicDisplay;

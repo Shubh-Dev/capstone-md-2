@@ -1,29 +1,23 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url("./assets/images/showcase.jpg");
+  background-image: url("./assets/images/showcase2.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  font-family: cursive;
+  background-size: contain;
+  font-family: poppins, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   overflow-x: hidden;
-}
-
-#search {
-  display: none;
 }
 
 header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   background-color: floralwhite;
-  align-items: center;
   width: 100%;
   gap: 3%;
 }
 
 .food-intro {
-  width: 75%;
-  padding-inline: 5%;
+  padding-top: 7vh;
   margin: auto;
   color: #ffff;
 }
@@ -33,7 +27,6 @@ header {
   }
 
 span.tasty {
-  margin-right: 6%;
   color: green;
 }
 
@@ -50,11 +43,6 @@ span.eats {
   text-align: center;
 }
 
-.display {
-  background-color: #ffff;
-  padding-bottom: 5%;
-}
-
 h1,
 h2,
 p {
@@ -62,14 +50,10 @@ p {
   font-size: 30px;
 }
 
-.food-intro p,
-h2 {
-  color: #ffff;
-}
-
 .menu h2 {
   font-size: 40px;
   font-weight: 800;
+  color: #ffff;
 }
 
 .menu p {
@@ -78,12 +62,15 @@ h2 {
 }
 
 .food-intro p {
-  font-size: 23px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .food-intro h2 {
   font-size: 30px;
   text-align: center;
+  color: #ffff;
+  
 }
 
 .fa.fa-thumbs-up {
@@ -223,11 +210,6 @@ p#beef.likeShow {
   width: 80%;
 }
 
-.footer p {
-  color: #ffff;
-  font-size: 15px;
-}
-
 #apicomment p {
   color: #ffff;
 }
@@ -238,13 +220,10 @@ a {
 }
 
 footer {
-  padding-inline: 15px;
+  padding: 15px;
+  background-color: crimson;
+  min-height: 70px;
 }
-
-@media screen and (min-width: 768px) {
-  .fa.fa-search {
-    display: none;
-  }
 
   #search {
     display: block;
@@ -252,6 +231,7 @@ footer {
     border-radius: 35px;
     border: 1px solid green;
     width: 31%;
+    height: 20px;
   }
 
   header {
@@ -263,10 +243,6 @@ footer {
     display: flex;
     margin: auto;
     width: max-content;
-  }
-
-  .menu p {
-    padding-bottom: 5%;
   }
 
   .actions {
@@ -286,14 +262,6 @@ footer {
     background-color: white;
     padding-bottom: 20%;
     padding-top: 6%;
-  }
-
-  .food-intro {
-    padding-top: 5%;
-  }
-
-  .food-intro p {
-    text-align: center;
   }
 
   .meal {
@@ -320,8 +288,8 @@ footer {
   }
 
   .footer p {
-    font-size: 35px;
+    font-size: 22px;
     text-align: center;
+    color: #ffff;
   }
-}
 
