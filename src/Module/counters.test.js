@@ -37,7 +37,7 @@ describe('items counter and comments Counter ', () => {
     </div>`;
 
   test('Count Number of meals', () => {
-    expect(dis(meals)).toBe(8);
+    expect(dishCount(meals)).toBe(8);
   });
 
   test('Adding comments', () => {
