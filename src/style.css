@@ -1,3 +1,232 @@
-.hello {
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("./assets/images/showcase2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: poppins, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: floralwhite;
+  width: 100%;
+  padding: 1%;
+}
+
+.food-intro {
+  padding-top: 7vh;
+  margin: auto;
+  color: #ffff;
+}
+
+.and {
   color: red;
+}
+
+span.tasty {
+  color: green;
+}
+
+span.eats {
+  color: rgb(233, 66, 66);
+}
+
+.menu {
+  text-align: center;
+}
+
+h1,
+h2,
+p {
+  color: #726969;
+  font-size: 30px;
+}
+
+.menu h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #ffff;
+}
+
+.menu p {
+  font-size: 22px;
+  color: #ffff;
+}
+
+.food-intro p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.food-intro h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #ffff;
+}
+
+.fa.fa-thumbs-up {
+  color: #726969;
+  font-size: 27px;
+  cursor: pointer;
+}
+
+.foodcategory {
+  font-size: 30px;
+  font-weight: 800;
+  color: #726969;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  width: 76%;
+  justify-content: space-between;
+  margin-left: 16%;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+}
+
+.comment-btn {
+  width: 75%;
+  margin-left: 15%;
+  padding: 26px;
+  font-size: 24px;
+}
+
+.comment-btn:active {
+  margin-inline: 20px;
+  width: 80%;
+}
+
+.cancel {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  top: 0;
+  color: #ffff;
+}
+
+.popup-card {
+  display: flex;
+  justify-content: space-around;
+  padding: 9%;
+  margin-right: 3%;
+}
+
+.food-description {
+  padding: 20px;
+  font-size: 24px;
+  color: #ffff;
+}
+
+#apicomment {
+  margin: auto;
+  width: fit-content;
+}
+
+p#commentCount {
+  text-align: center;
+  color: #ffff;
+}
+
+#name {
+  padding: 15px;
+  border-radius: 6px;
+  width: 50%;
+}
+
+#message {
+  padding: 35px;
+  border-radius: 6px;
+}
+
+.submits {
+  width: 50%;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.submits:active {
+  margin-left: 10px;
+  width: 45%;
+}
+
+p#beef.likeShow {
+  margin-right: 50px;
+}
+
+.thumbshow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 22px;
+  text-align: center;
+  color: #ffff;
+}
+
+#apicomment p {
+  color: #ffff;
+}
+
+a {
+  text-decoration: none;
+  color: #a0ff0f;
+}
+
+footer {
+  padding: 15px;
+  background-color: crimson;
+  min-height: 70px;
+}
+
+#search {
+  display: block;
+  padding: 18px;
+  border-radius: 35px;
+  border: 1px solid green;
+  width: 31%;
+  height: 20px;
+  margin-top: 7px;
+}
+
+#itemsCount {
+  display: flex;
+  margin: auto;
+  width: max-content;
+  padding-bottom: 5%;
+}
+
+.display {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 3em;
+  background-color: white;
+  padding-bottom: 20%;
+  padding-top: 6%;
+}
+
+.meal {
+  width: 100%;
+}
+
+.commentSection {
+  background-color: rgb(58, 55, 55);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
 }
